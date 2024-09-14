@@ -12,7 +12,7 @@ public class Primes {
             return false;
         }
         for (int i = 2; i < n; i++) {
-            if (n % i == 0) { // n делится без остатка на i
+            if (n % i == 0) {
                 return false;
             }
         }
